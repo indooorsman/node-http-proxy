@@ -1,12 +1,12 @@
 {
   "name": "node-http-proxy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "简易http代理服务器",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "forever": "forever -u node-http-proxy start index.js"
+    "forever": "forever -a -u node-http-proxy start index.js"
   },
   "author": "indooorsman@gmail.com",
   "license": "ISC"
